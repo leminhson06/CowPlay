@@ -1,0 +1,473 @@
+name : 🇻🇳Tiếng Việt
+
+# Chuỗi chung
+general_1: "Trả lời tin nhắn của người dùng hoặc cung cấp tên người dùng /user_id."
+general_2: "Lỗi! Sử dụng sai lệnh."
+general_3: "Một số ** ngoại lệ đã xảy ra ** trong khi xử lý truy vấn của bạn.\nLoại ngoại lệ: - {0}"
+general_4: "Bạn là quản trị viên ẩn danh trong nhóm trò chuyện này!\n Quay lại Tài khoản Người dùng Từ Quyền của Quản trị viên."
+general_5: "Bạn cần là quản trị viên có quyền quản lý trò chuyện thoại để thực hiện tác vụ này."
+general_6: "Bot không phát trực tuyến trên trò chuyện thoại."
+
+# Lớp học - Telegram.py
+tg_1: "Bot đang ** quá tải ** với lượt tải xuống ngay bây giờ.\n ** Hãy thử Sau: ** {0} (__thời gian dự kiến__)"
+tg_2: "Không tải xuống được phương tiện từ telegram."
+
+# Core - Call.py
+call_1: "Bot yêu cầu ** Quản trị viên ** Quyền mời tài khoản trợ lý vào kênh của bạn."
+call_2: "Trợ lý bị cấm trong nhóm hoặc kênh của bạn, vui lòng bỏ cấm.\n ** Tên người dùng của Trợ lý: ** @ {0}\n ** ID Trợ lý: ** {1}"
+call_3: "Đã xảy ra ngoại lệ khi mời Tài khoản Trợ lý vào cuộc trò chuyện của bạn.\n ** Lý do **: {0}"
+call_4: "Bot yêu cầu ** Mời Người dùng Qua Liên kết ** Quyền mời tài khoản trợ lý vào nhóm trò chuyện của bạn."
+call_5: "Tài khoản Trợ lý sẽ tham gia sau 5 giây.. Vui lòng đợi!"
+call_6: "Tài khoản Trợ lý [{0}] Đã tham gia thành công.\n Bắt đầu phát nhạc ngay bây giờ"
+call_7: "** Quyền quản trị có hại được trao **\nVui lòng xóa ** BAN USERS ** quyền khỏi bot."
+call_8: "** Quyền quản trị có hại được trao **\nVui lòng xóa ** THÊM QUẢN TRỊ MỚI ** quyền khỏi bot."
+call_9: "** Không chuyển được Luồng **\nVui lòng sử dụng /bỏ qua để thay đổi lại bản nhạc."
+call_10: "Đang tải xuống bản nhạc tiếp theo từ danh sách phát"
+call_11: "Vui lòng thêm @{0} vào kênh của bạn [ID:{1}].\nBot không thể nhận thông tin chi tiết về kênh."
+
+# PLUGINS - Auth.py
+auth_1: "Bạn chỉ có thể có 20 người dùng trong Danh sách người dùng được ủy quyền (AUL) của nhóm bạn"
+auth_2: "Đã thêm vào Danh sách người dùng được ủy quyền của nhóm của bạn."
+auth_3: "Đã có trong Danh sách người dùng được ủy quyền."
+auth_4: "Đã bị xóa khỏi Danh sách Người dùng được Ủy quyền của Nhóm này."
+auth_5: "Người dùng được nhắm mục tiêu không phải là Người dùng được ủy quyền."
+auth_6: "Đang tìm nạp người dùng được ủy quyền ... Vui lòng đợi"
+auth_7: "** Danh sách người dùng được ủy quyền [AUL]: **\n"
+auth_8: "┗ Được thêm bởi: -"
+
+# PLUGINS - Quản trị viên
+admin_1: "Nhạc đã bị Tạm dừng."
+admin_2: "🎧 Voicechat bị {} tạm dừng!"
+admin_3: "Nhạc đã được tiếp tục."
+admin_4: "🎧 Voicechat được {} tiếp tục lại!"
+admin_5: "Nhạc đã bị tắt tiếng."
+admin_6: "🎧 Voicechat Đã tắt tiếng bởi {}!"
+admin_7: "Nhạc đã được bật tiếng."
+admin_8: "🎧 Voicechat được {} tắt tiếng!"
+admin_9: "🎧 Voicechat End /Stopped by {}!"
+admin_10: "🎧 Voicechat bị bỏ qua bởi {} !. Không còn nhạc trong hàng đợi."
+admin_11: "Lỗi khi thay đổi luồng thành ** {0} **\nVui lòng sử dụng /bỏ qua lại."
+admin_12: "Không thể bỏ qua một bản nhạc cụ thể vì đã bật tính năng phát vòng lặp. Vui lòng tắt tính năng phát vòng lặp thông qua` /loop disable` để sử dụng tính năng này. "
+admin_13: "Vui lòng sử dụng số cho các bản nhạc cụ thể, như 1, 2 hoặc 4, v.v."
+admin_14: "Cần ít nhất 2 bài hát trong hàng đợi để chuyển đến một số cụ thể. Kiểm tra hàng đợi theo /hàng đợi"
+admin_15: "Không có đủ bài hát trong hàng đợi cho giá trị do bạn cung cấp. Vui lòng chọn các số từ 1 đến {0}"
+admin_16: "Không thể bỏ qua bài hát cụ thể.\nKiểm tra hàng đợi bên trái theo /hàng đợi"
+admin_17: "{0} .. Vui lòng đợi"
+admin_18: "Không tìm thấy danh sách quản trị viên\nVui lòng tải lại danh sách quản trị viên qua /admincache hoặc /tải lại"
+admin_19: "Bạn cần là quản trị viên có quyền quản lý trò chuyện thoại để thực hiện việc này.\nNếu bạn đã là quản trị viên, hãy tải lại admincache qua /admincache"
+admin_20: "Đã tải lại bộ nhớ cache của quản trị viên thành công."
+admin_21: "Không có gì bên trong hàng đợi để xáo trộn"
+admin_22: "Không phát ngẫu nhiên được.\nKiểm tra hàng đợi: /queue"
+admin_23: "** Hàng đợi bị xáo trộn bởi {0} **\nKiểm tra hàng đợi bị xáo trộn: /queue"
+admin_24: "** Cách sử dụng: ** \n/loop [bật/tắt] hoặc [Số từ 1-10]\n ** Ví dụ: ** /loop 5"
+admin_25: "Đã bật vòng lặp bởi {0} trong ** {1} ** lần. Bot giờ sẽ lặp lại nhạc đang phát hiện tại trong cuộc trò chuyện thoại trong ** {1} ** lần"
+admin_26: "Vui lòng sử dụng các số từ 1-10 để chơi lặp lại"
+admin_27: "Loop Play đã bị tắt"
+admin_28: "** Cách sử dụng: ** \n/seek hoặc /seekback [Thời lượng tính bằng giây]"
+admin_29: "Vui lòng sử dụng thời lượng số giây như 10-20-30 giây để tìm kiếm"
+admin_30: "Rất tiếc, bạn không thể tìm kiếm luồng hiện đang phát. Chỉ có thể bỏ qua hoặc dừng luồng."
+admin_31: "Bot không thể tìm kiếm do thời lượng đã cho cao. Bạn cần tìm kiếm thời lượng thấp hơn và nhớ rằng thời gian còn lại 10 giây sau khi tìm kiếm.\n Hiện đã chơi ** {0} ** phút hết trong ** {1} ** phút "
+admin_32: "Vui lòng đợi ... Đang tìm kiếm luồng đang diễn ra."
+admin_33: "Đã phát trực tiếp thành công đến {0} phút"
+admin_34: "Không tìm kiếm được luồng hiện tại."
+
+# Bot 
+
+# Start
+start_1: "Cảm ơn vì đã có tôi trong {0}.\n {1} vẫn còn sống.\nĐể được hỗ trợ hoặc giúp đỡ, hãy xem kênh và nhóm hỗ trợ của chúng tôi."
+start_2: "Chào bạn, Tôi là {0}.\nTôi là 1 bot nhạc trên telegram với rất nhiều tính năng.\nĐể sử dụng. Tôi vui lòng thêm tôi vào nhóm."
+start_3: "Chào mừng bạn đến với {0}\nTôi không cần bất kỳ ** quyền quản trị viên ** nào để làm việc (cho đến khi được yêu cầu).\nTên người dùng cố định: - @ {1}\n ID trợ lý: - {2} "
+start_4: "Chủ sở hữu của {0} [{1}] vừa tham gia cuộc trò chuyện của bạn."
+start_5: "Một thành viên của Người dùng Sudo của {0} [{1}] vừa tham gia cuộc trò chuyện của bạn."
+start_6: "❗️ ** Cần có siêu nhóm ** ❗️\nVui lòng chuyển đổi ** nhóm ** của bạn thành ** siêu nhóm ** rồi thêm lại tôi.\n ** Cách tạo siêu nhóm? **\n✅ Làm cho lịch sử trò chuyện của nhóm bạn ** hiển thị ** một lần. "
+start_7: "** Trò chuyện trong danh sách đen **\nBạn đang trò chuyện đã bị Bot đưa vào danh sách đen. Trước tiên, hãy yêu cầu bất kỳ người dùng Sudo nào đưa trò chuyện vào danh sách trắng. Kiểm tra [Sudolist từ đây]({0})"
+
+# Giúp đỡ
+help_1: "Nhấp vào các nút bên dưới để biết thêm thông tin. Nếu bạn gặp bất kỳ vấn đề nào trong lệnh, bạn có thể liên hệ với chủ sở hữu bot của tôi hoặc hỏi trong cuộc trò chuyện hỗ trợ.\n Có thể sử dụng tất cả các lệnh với: /"
+help_2: "Liên hệ với tôi trong PM để được trợ giúp."
+
+# Cài đặt
+setting_1: "⚙️ ** Cài đặt Music Bot **\n🖇 ** Nhóm: ** {0}\n🔖 ** ID nhóm: **` {1} `\n\n💡 ** Chọn chức năng từ bên dưới mà bạn muốn chỉnh sửa hoặc thay đổi. ** "
+setting_3: "⁉️ Đây là gì?\n1) Trực tiếp: Phát trực tiếp các truy vấn tìm kiếm. Sử dụng -v để phát video ở chế độ trực tiếp.\n2) Nội tuyến: Trả về các Nút Đánh dấu Nội tuyến để chọn giữa video và âm thanh."
+setting_4: "⁉️ Đây là gì?\n👥 Mọi người: Bất kỳ ai cũng có thể sử dụng lệnh quản trị (bỏ qua, tạm dừng, tiếp tục, v.v.) có trong nhóm này.\n🙍 Chỉ dành cho quản trị viên: Chỉ quản trị viên và người dùng được ủy quyền mới có thể sử dụng lệnh quản trị . "
+setting_5: "Không tìm thấy người dùng được ủy quyền nào\nBạn có thể cho phép mọi người không phải quản trị viên sử dụng lệnh quản trị của tôi bằng /auth và xóa bằng cách sử dụng /unauth"
+setting_9: "⁉️ Đây là gì?\nKhi được kích hoạt, Bot sẽ xóa tin nhắn của nó sau {0} để làm cho cuộc trò chuyện của bạn trở nên rõ ràng và rõ ràng."
+setting_10: "⁉️ Đây là gì?\n1) Nhóm: Phát nhạc trong nhóm có lệnh được đưa ra.\n2) Kênh: Phát nhạc ở kênh bạn muốn. Đặt id kênh qua /channelplay"
+setting_11: "⁉️ Đây là gì?\n1) Mọi người: Bất kỳ ai có mặt trong nhóm này đều có thể phát nhạc ở đây.\n2) Chỉ quản trị viên: Chỉ quản trị viên mới có thể phát nhạc trong nhóm này."
+setting_12: "❌ Bạn chưa xác định id kênh cho chế độ kênh. Vui lòng xác định bằng /channelplay."
+setting_13: "Không thể thay đổi chế độ phát trong cuộc gọi nhóm đang hoạt động. Trước tiên, vui lòng dừng trò chuyện thoại bằng /stop."
+setting_14: "⁉️ Đây là gì?\nKhi được kích hoạt, Bot sẽ xóa các lệnh đã thực thi của nó (/play, /pause, /shuffle, /stop, v.v.) ngay lập tức.\nBot sẽ yêu cầu quản trị viên xóa tin nhắn cho việc này để hoạt động bình thường. "
+setting_15: "Không giải quyết được ứng dụng ngang hàng, Hãy đảm bảo rằng bạn đã thêm bot vào kênh của mình và thăng cấp bot đó lên làm quản trị viên.\nHãy thử cài đặt lại /channelplay .."
+setting_16: "⁉️ Đây là gì?\nKhi được kích hoạt, Bot sẽ đề xuất cuộc trò chuyện của bạn sau mỗi 1-2 giờ về các lệnh của bot (Cách sử dụng chúng, là các lệnh và nhiều thứ khác) một cách ngẫu nhiên."
+
+
+set_cb_1: "Tải Bảng Chất lượng Âm thanh ..."
+set_cb_2: "Tải Bảng Chất lượng Video ..."
+set_cb_3: "Đang tải bảng điều khiển người dùng xác thực ..."
+set_cb_4: "Đang tải Bảng điều khiển chế độ chơi ..."
+set_cb_5: "Đang tải Bảng điều khiển Chế độ Làm sạch ..."
+set_cb_6: "Thiết lập các thay đổi."
+set_cb_7: "Đang lấy danh sách người dùng xác thực .. VUI LÒNG CHỜ."
+set_cb_8: "Quay lại .."
+
+# Misc
+ustats_1: "Không tìm thấy thống kê người dùng."
+ustats_2: "Grettings !, Bạn đã chơi các bản nhạc ** {0} ** cho đến nay với số lần khổng lồ là ** {1} ** lần.\nTop {2} do bạn chơi:\n"
+
+gstats_1: "Nhận Thống kê Toàn cầu, Quá trình này có thể mất một chút thời gian ..."
+gstats_2: "Không tìm thấy số liệu thống kê."
+gstats_3: "Có được Top 10 toàn cầu {0} trên bot, Quá trình này có thể mất một chút thời gian .."
+gstats_4: "** Tổng số Truy vấn trên Bot: ** {0}\n {1} đã phát các bản nhạc ** {2} ** cho đến thời điểm hiện tại với số lần khổng lồ là ** {3} ** lần.\n ** {4} Bài hát hàng đầu: **\n "
+gstats_5: "** Cuộc trò chuyện {0} hàng đầu của {1}: **\n"
+gstats_6: "** {0} Người dùng hàng đầu của {1}: **\n"
+gstats_7: "Nhóm trò chuyện này đã phát các bản nhạc ** {0} ** cho đến thời điểm hiện tại với số lần khổng lồ là ** {1} ** lần.\nTop {2} được phát bởi nhóm trò chuyện này:\n"
+gstats_8: "Nhận thông tin và số liệu thống kê chung của Bot .. Quá trình này có thể mất một chút thời gian ..."
+gstats_9: "** 10 THỐNG KÊ HÀNG ĐẦU TOÀN CẦU CỦA BOT **\nChọn các nút từ bên dưới mà bạn muốn kiểm tra số liệu thống kê toàn cầu từ máy chủ của bot."
+gstats_10: "** Số liệu thống kê toàn cầu của {0} **\nChọn các nút từ bên dưới mà bạn muốn kiểm tra số liệu thống kê toàn cầu từ máy chủ của bot."
+gstats_11: "** Số liệu thống kê chung về {0} **\nChọn các nút từ bên dưới mà bạn muốn kiểm tra số liệu thống kê chung từ máy chủ của bot.\nĐể kiểm tra các bản nhạc, cuộc trò chuyện, người dùng và các nội dung khác hàng đầu, vui lòng sử dụng /gstats "
+
+
+# Play 
+
+#Play Callback 
+playcb_1: "Cái này không dành cho bạn! Tìm kiếm bài hát của riêng bạn."
+playcb_2: "Nhận kết quả tiếp theo"
+
+# Kênh Play
+cplay_1: "Bạn có thể phát nhạc trong các kênh từ cuộc trò chuyện này [{0}] tới bất kỳ kênh nào hoặc kênh được liên kết trong cuộc trò chuyện của bạn.\n ** Đối với kênh được liên kết: **\n` /{1} đã liên kết`\n ** Đối với bất kỳ kênh nào khác: **\n` /{1} [ID kênh] `"
+cplay_2: "Cuộc trò chuyện này không có kênh được liên kết."
+cplay_3: "Kênh được xác định thành {0}\n__ ID kênh__: {1}"
+cplay_4: "Không tải được kênh.\nĐảm bảo rằng bạn đã thêm bot vào kênh của mình và thăng cấp bot đó với tư cách quản trị viên.\nChỉnh sửa hoặc Thay đổi kênh qua /channelplay"
+cplay_5: "Chỉ các Kênh được hỗ trợ."
+cplay_6: "Bạn cần phải là ** Chủ sở hữu ** của kênh [{0}] để kết nối với nhóm này.\n ** Chủ sở hữu của kênh: ** @ {1}\n Ngoài ra, bạn có thể liên kết nhóm của mình với kênh đó rồi thử kết nối với `/channelplay được liên kết`"
+
+#Chơi
+play_1: "🔄 Đang xử lý truy vấn ... Vui lòng đợi!"
+play_2: "** 🏷Chế độ phát kênh **\n🔄 Truy vấn đang xử lý ... Vui lòng đợi!\n ** Kênh được liên kết: ** {0}"
+play_3: "Không xử lý được truy vấn!"
+play_4: "🖇 ** Chỉ quản trị viên mới chơi **\nChỉ quản trị viên và người dùng xác thực mới có thể phát nhạc trong nhóm này.\nChuyển đổi chế độ qua /playmode và nếu bạn đã là quản trị viên, hãy tải lại admincache qua /admincache"
+play_5: "Không xử lý được tệp âm thanh.\nKích thước tệp âm thanh phải nhỏ hơn 100 mb"
+play_6: "** Đã vượt quá giới hạn thời lượng **\n ** Thời lượng cho phép: ** {0} phút\n ** Thời lượng đã nhận: ** {1} giờ"
+play_7: "Rất tiếc! Bot chỉ cho phép số lượng cuộc gọi video giới hạn do sự cố quá tải CPU. Nhiều cuộc trò chuyện khác đang sử dụng cuộc gọi điện video ngay bây giờ. Hãy thử chuyển sang âm thanh hoặc thử lại sau"
+play_8: "Không phải là phần mở rộng về tệp video hợp lệ!\n ** Các định dạng được hỗ trợ: ** {0}"
+play_9: "Kích thước tệp video phải nhỏ hơn 1 GiB"
+play_10: "** Tính năng Danh sách phát trên Youtube **\nChọn Chế độ mà bạn muốn phát toàn bộ Danh sách phát trên Youtube"
+play_11: "📎Title: ** {0}\n⏳Duration: ** {1} Phút"
+play_12: "** Chế độ chơi Spotify **\nYêu cầu bởi: - {0}"
+play_13: "** Apple Playlists **\nYêu cầu bởi: - {0}"
+play_14: "** Không thể xác minh URL. **\nBạn thắc mắc liệu url này có thuộc bất kỳ nền tảng nào sau đây không: Youtube, AppleMusic, Spotify, Resso và Soundcloud.\nBạn có thể sử dụng /phát trực tuyến cho M3u8 hoặc Liên kết từ xa . "
+play_15: "** Đã phát hiện luồng trực tiếp **\nHệ thống đã phát hiện liên kết theo dõi của bạn là luồng trực tiếp. Bạn có muốn phát luồng trực tiếp không?"
+play_16: "Không tìm nạp được chi tiết bản nhạc. Hãy thử phát bất kỳ bản nhạc nào khác."
+play_17: "Không thể phát loại truy vấn spotify này!\nTôi chỉ có thể phát các bản nhạc, album, nghệ sĩ và danh sách phát spotify"
+play_18: "** Không tìm thấy cuộc trò chuyện thoại đang hoạt động **\nĐể sử dụng lực phát, phải có cuộc trò chuyện thoại đang diễn ra trong nhóm của bạn. ** Force Play ** dừng bản nhạc đang phát trên trò chuyện thoại và bắt đầu phát tìm kiếm theo dõi ngay lập tức mà không làm phiền /xóa hàng đợi. "
+
+
+#Playlist
+playlist_1: "** Cách sử dụng: ** /play [Tên nhạc hoặc Liên kết Youtube hoặc Trả lời âm thanh]\nNếu bạn muốn phát Danh sách phát trên máy chủ của Bot! Nhấn nút bên dưới."
+playlist_2: "Đang tải danh sách phát của bạn. Vui lòng đợi"
+playlist_3: "Bạn không có danh sách phát nào trên Máy chủ của Bot."
+playlist_4: "Danh sách phát đã tìm nạp:\n"
+playlist_5: "Thời lượng- {0} Phút"
+playlist_6: "Liên hệ với tôi trong PM để xóa Danh sách phát."
+playlist_7: "Các bản nhạc trong danh sách phát: {0}\nNhấn các Nút để xóa một bản nhạc cụ thể trong danh sách phát của bạn.\nĐể xóa toàn bộ danh sách phát: Nhấn nút Del Whole Playlist."
+playlist_8: "Đã Tồn tại\nBản nhạc này tồn tại trong danh sách phát của bạn."
+playlist_9: "Xin lỗi! Bạn chỉ có thể có {0} nhạc trong danh sách phát."
+playlist_10: "Bổ sung danh sách phát\n {0} \ được gắn vào danh sách phát của bạn."
+playlist_11: "Đã xóa thành công bản nhạc của bạn."
+playlist_12: "Không thể xóa bản nhạc của bạn."
+playlist_13: "Đã xóa toàn bộ danh sách phát của bạn khỏi máy chủ."
+playlist_14: "** Bạn có chắc chắn muốn xóa toàn bộ danh sách phát của mình không? **\nBạn sẽ mất danh sách phát của mình và không thể khôi phục danh sách này sau này."
+playlist_15: "[Checkout Toàn bộ Danh sách]({0})"
+playlist_16: "Danh sách phát đã Xếp hàng:"
+playlist_17: "Vị trí Xếp hàng-"
+playlist_18: "[Checkout Toàn bộ Danh sách Xếp hàng]({0})\nVị trí Xếp hàng Cuối cùng: ** {1} **"
+
+#Chế độ chơi
+playmode_1: "Chọn chế độ mà bạn muốn phát các truy vấn trong nhóm của mình [{0}]."
+playmode_2: "Cài đặt đã được thay đổi và lưu thành công bởi {0}"
+
+#Dòng
+str_1: "Vui lòng cung cấp liên kết hoặc liên kết chỉ mục M3u8."
+str_2: "✅ Đã xác minh luồng hợp lệ\nVui lòng đợi liên kết xử lý .."
+str_3: "Không thể phát các luồng trực tiếp trên youtube. Không tìm thấy Định dạng Trực tiếp"
+
+#TopPlay
+track_1: "** Đang xử lý {0} 10 danh sách phát hàng đầu **\n Quá trình này có thể mất vài phút (khoảng 3-4 phút) .. Vui lòng đợi ...\n ** 👤Yêu cầu bởi: ** {1}\nKiểm tra 10 bản nhạc hàng đầu theo /gstats "
+track_2: "** Error **\nKhông có ** {0} 10 danh sách phát hàng đầu ** trên máy chủ của bot. Vui lòng thử bất kỳ danh sách phát nào khác"
+
+# CÔNG CỤ
+
+#Lyrics
+lyrics_1: "** Cách sử dụng: **\n \n/lời bài hát [Tên nhạc]"
+lyrics_2: "Tìm kiếm Lời bài hát"
+lyrics_3: "❌ Không tìm nạp được lời bài hát😭.\n💡 ** Đã thử Tìm kiếm: ** {0}"
+lyrics_4: "Nhấp vào nút bên dưới và nhận lời bài hát được tìm kiếm để tránh các loại tìm kiếm lời bài hát spam dài."
+
+
+#Ping
+ping_1: "Pong !!!!"
+ping_2: "{0} đang hoạt động tốt với ping là` {1} `ms.\nThời gian hoạt động của boot là {2} và đã sử dụng tổng số {3} bộ nhớ của máy chủ. Tải cpu là khoảng {4} với một tiêu thụ {5} Ram. Ứng dụng khách Py-Tgcalls cũng có ping tốt là `{6}` ms. "
+
+
+# Bài hát
+song_1: "Bạn chỉ có thể tải xuống Nhạc hoặc Video từ YouTube khi trò chuyện riêng tư. Vui lòng bắt đầu với tôi trong cuộc trò chuyện riêng tư."
+song_2: "** Cách sử dụng: **\n \n/bài hát [Tên nhạc] hoặc [Liên kết Youtube]"
+song_3: "Đã phát hiện liên kết trực tiếp. Tôi không thể tải xuống video trực tiếp trên youtube."
+song_4: "** 🔗Title: ** - {0}\nChọn loại bạn muốn tải xuống."
+song_5: "Liên kết Youtube không hợp lệ"
+song_6: "Đang lấy các định dạng ..\nXin vui lòng đợi .."
+song_7: "Không tải được các định dạng có sẵn cho video. Vui lòng thử bất kỳ bản nhạc nào khác."
+song_8: "Đã bắt đầu tải xuống\nTốc độ tải xuống có thể chậm. Vui lòng đợi .."
+song_9: "Không tải xuống được bài hát từ Youtube-DL\n ** Lý do: ** {0}"
+song_10: "Không tải lên được trên telegram từ máy chủ."
+song_11: "Đã bắt đầu tải lên\nTốc độ tải lên có thể chậm. Vui lòng đợi .."
+
+# Công cụ - Hàng đợi
+queue_1: "Vui lòng đợi..Tìm hàng đợi .."
+queue_2: "Danh sách Đã xếp hàng trống. Không tìm thấy bản nhạc nào"
+queue_3: "<u> ** Các tuyến đường được xếp hàng: </u> ** [Kiểm tra thêm các tuyến đường được xếp hàng từ đây]({0})"
+queue_4: "⏳ Đã được thêm vào Hàng đợi tại ** # {0}\n💡Title: ** {1}\n ** ⏱Duration: ** {2}\n👤 ** Được thêm vào bởi: ** {3 } "
+queue_5: "Chỉ có một bản nhạc bên trong hàng đợi, Vui lòng thêm một số bản khác vào danh sách kiểm tra"
+
+# Tất cả các dòng phát trực tuyến
+stream_1: "📡 ** Đã bắt đầu phát trực tuyến ** 💡\n👤 ** Được yêu cầu bởi: ** {0}\n🔦 ** Thông tin: ** [Tại đây]({1})"
+stream_2: "📡 ** Đã bắt đầu phát trực tuyến qua URL ** 💡\n👤 ** Được yêu cầu bởi: ** {0}"
+stream_3: "📡 ** Đã bắt đầu phát trực tuyến ** 💡\n ** 🏷 Nội dung: ** {0}\n⌛️ ** Thời lượng **: {1}\n👤 ** Được yêu cầu bởi: ** {2} "
+stream_4: "📡 ** Đã bắt đầu phát trực tuyến ** 💡\n ** 🏷Title: ** [{0}]({1})\n⌛️ ** Thời lượng **: {2}\n👤 ** Đã yêu cầu Bởi: ** {3} "
+
+# Nút nội tuyến
+
+# Nút Chung
+CLOSE_BUTTON: "🗑 Đóng"
+CLOSEMENU_BUTTON: "🗑 Đóng menu"
+BACK_BUTTON: "⬅ Quay lại"
+UNBAN_BUTTON: "🗑 Bỏ cấm Trợ lý"
+
+#Lyrics
+L_B_1: "🚀 Checkout Lyrics Now"
+
+# Bắt đầu
+S_B_1: "🗒 Lệnh"
+S_B_2: "🔧 Cài đặt"
+S_B_3: "📨 Hỗ trợ"
+S_B_4: "📨 Kênh"
+S_B_5: "✚ Thêm tôi vào Nhóm của bạn"
+S_B_6: "💡 Git Repo"
+S_B_7: "👤 Chủ sở hữu bot"
+S_B_8: "🔎 Cách sử dụng? Menu Lệnh."
+
+#Giúp đỡ
+H_B_1: "Lệnh quản trị"
+H_B_2: "Phát lệnh"
+H_B_3: "Lệnh Bot"
+H_B_4: "Lệnh bổ sung"
+H_B_5: "Đóng menu"
+H_B_6: "Lệnh SudoUser"
+
+#Chế độ chơi
+PM_B_1: "DirectPlay"
+PM_B_2: "InlineMarkup"
+PM_B_3: "ChannelPlay"
+
+#Chơi
+P_B_1: "🎵 Phát âm thanh"
+P_B_2: "🎥 Phát video"
+P_B_3: "🏮 Bắt đầu phát trực tiếp"
+P_B_4: "🎵 Phát danh sách phát"
+
+#Playlist
+PL_B_1: "🚀 Phát danh sách phát"
+PL_B_2: "✚ Danh sách phát"
+PL_B_3: "✚ Bổ sung"
+PL_B_4: "📡 Chế độ chơi"
+PL_B_5: "🔄 Del Toàn bộ Danh sách phát"
+PL_B_6: "↗️ Xóa danh sách phát"
+PL_B_7: "❗️ Vâng, tôi chắc chắn. Xóa nó đi"
+PL_B_8: "🔢 Chơi top 10"
+PL_B_9: "🤖 Phát 10 bản nhạc hàng đầu toàn cầu"
+PL_B_10: "10 bản nhạc hàng đầu của 🏘 Play Group"
+PL_B_11: "👤 Phát 10 bản nhạc cá nhân hàng đầu"
+
+#Settings
+ST_B_1: "🔊 Chất lượng âm thanh"
+ST_B_2: "🎥 Chất lượng Vid"
+ST_B_3: "Người dùng 🎩 Auth"
+ST_B_4: "📱 Trang tổng quan"
+ST_B_5: "▶ ️ Chế độ chơi"
+ST_B_6: "🏳️‍🌈 Ngôn ngữ"
+ST_B_7: "🔄 Chế độ sạch"
+ST_B_8: "{0} Âm thanh chất lượng thấp"
+ST_B_9: "{0} Âm thanh chất lượng trung bình"
+ST_B_10: "{0} Âm thanh chất lượng cao"
+ST_B_11: "{0} Video chất lượng thấp"
+ST_B_12: "{0} Video Chất lượng Trung bình"
+ST_B_13: "{0} Video chất lượng cao"
+ST_B_14: "✅ Đã bật"
+ST_B_15: "❌ Đã tắt"
+ST_B_16: "👤 Quản trị viên"
+ST_B_17: "👥 Mọi người"
+ST_B_18: "📋 Danh sách người dùng được ủy quyền"
+ST_B_19: "🔎 Chế độ tìm kiếm"
+ST_B_20: "✅ Trực tiếp"
+ST_B_21: "✅ Nội tuyến"
+ST_B_22: "👨‍⚖️ Lệnh quản trị"
+ST_B_23: "🏘 Nhóm"
+ST_B_24: "🏷 Kênh"
+ST_B_25: "🫂 Loại phát"
+ST_B_26: "🗑 Lệnh Clean"
+ST_B_27: "🧑‍🚀 Chế độ đề xuất"
+
+#Song
+SG_B_1: "↗️ Mở trò chuyện riêng tư"
+SG_B_2: "🔊 Âm thanh"
+SG_B_3: "🎥 Video"
+
+# Thống kê
+SA_B_1: "📢 Trò chuyện 10 hàng đầu"
+SA_B_2: "🔢 10 bản nhạc hàng đầu"
+SA_B_3: "🧛 10 người dùng hàng đầu"
+SA_B_4: "🏷 Top 10 tại đây"
+SA_B_5: "💡 Số liệu thống kê tổng thể"
+SA_B_6: "👤 Thống kê Người dùng"
+SA_B_7: "🔢 Số liệu thống kê 10 hàng đầu toàn cầu"
+SA_B_8: "🤖 Số liệu thống kê về bot"
+
+#Xếp hàng
+QU_B_1: "📑 Danh sách đã xếp hàng"
+QU_B_2: "Đã chơi {0} trong số {1} phút"
+
+# Người dùng Sudo [Nếu bạn đang dịch tệp này sang một số ngôn ngữ khác .. bạn có thể để tất cả các chuỗi này bằng ngôn ngữ tiếng Anh]
+
+#Sudo
+sudo_1: "{0} đã là người dùng sudo."
+sudo_2: "Đã thêm ** {0} ** vào Người dùng Sudo."
+sudo_3: "Không phải là một phần của Sudo của Bot."
+sudo_4: "Đã xóa khỏi Người dùng Sudo của Bot"
+sudo_5: "⭐️ <u> ** Chủ sở hữu: ** </u>\n"
+sudo_6: "\ n⭐️ <u> ** Người dùng Sudo: ** </u>\n"
+sudo_7: "Không có người dùng Sudo"
+
+#Khối
+block_1: "{0} đã bị chặn khỏi bot."
+block_2: "Đã thêm ** {0} ** vào Danh sách chặn bot. Người dùng sẽ không thể sử dụng bot bây giờ trong bất kỳ điều kiện nào.\nKiểm tra người dùng bị chặn: /blockusers"
+block_3: "Người dùng đã miễn phí và không bị chặn."
+block_4: "Đã xóa người dùng khỏi danh sách chặn. Người dùng sẽ có thể sử dụng bot ngay bây giờ."
+block_5: "Không tìm thấy người dùng bị chặn"
+block_6: "Lấy Danh sách Người dùng Bị Chặn .. Vui lòng Chờ"
+block_7: "** Người dùng bị chặn: **\n"
+
+#Blacklist Trò chuyện
+black_1: "** Cách sử dụng: ** \n/blacklistchat [CHAT_ID]"
+black_2: "Trò chuyện đã được đưa vào danh sách cấm."
+black_3: "Trò chuyện đã được đưa vào danh sách đen thành công"
+black_4: "** Cách sử dụng: ** \n/whitelistchat [CHAT_ID]"
+black_5: "Trò chuyện đã được đưa vào danh sách trắng."
+black_6: "Trò chuyện đã được đưa vào danh sách trắng thành công"
+black_7: "** Cuộc trò chuyện trong danh sách đen: **\n"
+black_8: "Không có cuộc trò chuyện trong danh sách đen"
+
+#videolimit
+vid_1: "** Cách sử dụng: ** \n/set_video_limit [Số cuộc trò chuyện được phép] hoặc [Tắt]"
+vid_2: "Vui lòng Sử dụng Số để Đặt Giới hạn."
+vid_3: "Giới hạn tối đa cuộc gọi điện video được xác định cho {0} cuộc trò chuyện."
+vid_4: "Cuộc gọi điện video bị vô hiệu hóa"
+
+#bảo trì
+duy trì: "** Cách sử dụng: ** \n/bảo trì [kích hoạt | vô hiệu hóa]"
+duy trì_2: "Đã bật để bảo trì"
+duy trì_3: "Chế độ bảo trì bị vô hiệu hóa"
+
+#log
+log_1: "** Cách sử dụng: ** \n/logger [bật | tắt]"
+log_2: "Đã bật ghi nhật ký"
+log_3: "Đã tắt ghi nhật ký"
+
+#chế độ quay
+vidmode_1: "** Cách sử dụng: ** \n/videomode [tải xuống | m3u8]"
+vidmode_2: "Chế độ Phát Video được đặt làm bộ giải mã. Bot sẽ tải xuống các bản nhạc ngay bây giờ."
+vidmode_3: "Chế độ phát video được đặt là m3u8. Bot sẽ phát trực tiếp các bản nhạc ngay bây giờ."
+
+#phát tin
+wide_1: "** Tin nhắn đã Truyền trong {0} Trò chuyện với {1} Ghim từ Bot. **"
+broad_2: "Đã bắt đầu phát sóng hỗ trợ ..."
+wide_3: "** Quảng cáo trên Trợ lý: **\n"
+broad_4: "Trợ lý {0} được phát trong {1} cuộc trò chuyện\n"
+wide_5: "** Cách sử dụng **: \n/broadcast [MESSAGE] hoặc [Trả lời tin nhắn]"
+broad_6: "Vui lòng cung cấp một số văn bản để phát sóng."
+broad_7: "** Thông báo đã phát tới {0} Người dùng. **"
+
+#Heroku
+heroku_1: "Hãy đảm bảo rằng Khóa API Heroku của bạn, Tên ứng dụng của bạn được định cấu hình chính xác trong heroku"
+heroku_2: "Bạn chỉ có thể tải nhật ký của Ứng dụng Heroku"
+heroku_3: "** Cách sử dụng: ** \n/get_var [Var Name]"
+heroku_4: "Không thể tìm thấy bất kỳ var nào như vậy."
+heroku_5: "Không tìm thấy tệp .env."
+heroku_6: "** Cách sử dụng: ** \n/del_var [Var Name]"
+heroku_7: "{0} Đã xóa."
+heroku_8: "** Cách sử dụng: ** \n/set_var [Var Name] [Var Value]"
+heroku_9: "{0} đã được cập nhật thành công"
+heroku_10: "{0} đã được thêm thành công"
+heroku_11: "Chỉ dành cho Ứng dụng Heroku"
+heroku_12: "Kiểm tra việc sử dụng Heroku. Vui lòng đợi"
+heroku_13: "Đang kiểm tra các bản cập nhật có sẵn ..."
+heroku_14: "Lỗi lệnh Git"
+heroku_15: "Kho lưu trữ Git không hợp lệ"
+
+# Chế độ bot riêng tư
+pbot_1: "** Cách sử dụng: ** \n/ủy quyền [CHAT_ID]"
+pbot_2: "** Cách sử dụng: ** \n/hủy ủy quyền [CHAT_ID]"
+pbot_3: "Đã thêm trò chuyện nhất định vào danh sách được ủy quyền"
+pbot_4: "Đã xóa cuộc trò chuyện nhất định khỏi danh sách được ủy quyền"
+pbot_5: "Trò chuyện đã có trong danh sách được ủy quyền"
+pbot_6: "Không có cuộc trò chuyện như vậy tồn tại trong danh sách được ủy quyền"
+pbot_7: "Không xác minh được chat_id.\nĐảm bảo là số và ở định dạng chính xác. Không sử dụng tên người dùng hoặc liên kết trò chuyện."
+pbot_8: "Vui lòng đợi .... Tìm nạp các cuộc trò chuyện được ủy quyền."
+pbot_9: "** <b> Trò chuyện đã tìm nạp: </b> **\n"
+pbot_10: "Trò chuyện Riêng tư"
+pbot_11: "Không tìm thấy cuộc trò chuyện được ủy quyền nào"
+pbot_12: "Chế độ Bot Riêng tư bị tắt.\nĐể sử dụng bot của bạn làm bot riêng, hãy đảm bảo đặt ** PRIVATE_BOT_MODE ** = ** Đúng **"
+pbot_13: "\ n ** <b> Trò chuyện chưa tìm được: </b> **\n"
+
+
+#Gbanned
+gban_1: "Bạn muốn tự gban? Thật ngu ngốc!"
+gban_2: "Tôi có nên tự chặn mình không? Lol"
+gban_3: "Bạn muốn chặn người dùng sudo?"
+gban_4: "{0} đã ** gbanned ** khỏi bot."
+gban_5: "** Đang khởi chạy Lệnh cấm Gobal vào {0} **\nThời gian Dự kiến: {1}."
+gban_6: "** Đã cấm thành công **\n Đã cấm ** {0} ** từ cuộc trò chuyện ** {1} **."
+gban_7: "{0} chưa ** gbanned ** từ bot."
+gban_8: "** Bỏ cấm {0} **\nThời gian Dự kiến: {1}."
+gban_9: "** Đã bỏ cấm thành công **\n Đã cấm ** {0} ** trong cuộc trò chuyện ** {1} **."
+gban_10: "Không tìm thấy người dùng bị cấm."
+gban_11: "Vui lòng đợi một lát .. Tìm nạp danh sách người dùng bị cấm"
+
+#Suggestions
+sug_0: "❓ ** Bạn có biết không? **\n✅"
+sug_1: "Bạn có thể phát nhạc ở hai ** chế độ tìm kiếm ** tức là Chế độ trực tiếp và Chế độ nội tuyến.\nThay đổi chế độ qua /playmode"
+sug_2: "Bạn có thể phát nhạc ở hai ** kiểu chơi ** tức là Chế độ mọi người và Chế độ quản trị viên.\nThay đổi chế độ qua /playmode"
+sug_3: "Bạn cũng có thể phát nhạc trên ** kênh **.\nĐặt channel_id qua /channelplay và phát qua /cplay"
+sug_4: "Những người không phải là quản trị viên cũng có thể sử dụng các lệnh của quản trị viên bằng cách thêm chúng vào ** DANH SÁCH NGƯỜI DÙNG AUTH **.\n Thêm bất kỳ người dùng nào vào danh sách xác thực theo /auth, xóa bằng /unauth và kiểm tra người dùng xác thực qua /authusers"
+sug_5: "Bot có một tính năng gọi là ** Chế độ sạch **.\n Nó sẽ xóa tin nhắn của bot sau 5 phút và đảm bảo rằng cuộc trò chuyện của bạn vẫn trong sạch.\nBật hoặc tắt chế độ dọn dẹp từ /settings [__Enabled theo mặc định__]"
+sug_6: "Bạn cũng có thể phát các bản nhạc và danh sách phát ** Spotify **.\nBắt đầu phát ngay bây giờ với /play [Spotify Link]"
+sug_7: "Bạn cũng có thể phát các bản nhạc và danh sách phát ** Apple Music **.\nBắt đầu phát ngay bây giờ với /play [Apple Link]"
+sug_8: "Bạn cũng có thể phát các bản nhạc và danh sách phát ** Resso Music **.\nBắt đầu phát ngay bây giờ với /play [Resso Link]"
+sug_9: "Bạn cũng có thể phát các bản nhạc và danh sách phát của ** Sound Cloud **.\nBắt đầu phát ngay bây giờ với /play [SoundCloud Link]"
+sug_10: "Bạn có thể phát ** Video ** trong trò chuyện thoại qua /vplay [Tên video] hoặc /play -v [Tên video]"
+sug_11: "Bạn có thể đặt ** Chất lượng âm thanh ** của cuộc trò chuyện thoại thành Thấp, Trung bình hoặc Cao.\nĐặt chất lượng qua /settings"
+sug_12: "Bạn có thể đặt ** Chất lượng video ** của cuộc trò chuyện thoại thành Thấp, Trung bình hoặc Cao.\nĐặt chất lượng qua /settings"
+sug_13: "Bạn có thể kiểm tra ** Thống kê ** của mình trên bot như 10 Bản nhạc đã chơi Hàng đầu.\nNhận Thống kê: /gstats"
+sug_14: "Bạn có thể kiểm tra ** Số liệu thống kê của nhóm ** trên bot như 10 Bài hát đã phát hàng đầu.\nNhận số liệu thống kê: /gstats"
+sug_15: "Bạn có thể kiểm tra ** Thống kê toàn cầu ** của bot như 10 người dùng hàng đầu, 10 cuộc trò chuyện hàng đầu, 10 bài hát hàng đầu, v.v.\n Thống kê kiểm tra: /gstats"
+sug_16: "Giờ đây, bạn có thể tắt tiếng nhạc đang phát trên cuộc trò chuyện thoại.\n Lệnh: /mute"
+sug_17: "Giờ đây, bạn có thể bật và tắt tiếng nhạc đang phát trên cuộc trò chuyện thoại.\n Lệnh: /mute và /bật tiếng"
+sug_18: "Bạn cũng có thể tìm kiếm lời bài hát với chúng tôi ..\nCommand: /lyrics [Tên nhạc]"
+sug_19: "Bạn có thể tải xuống nhạc hoặc video từ bot thông qua Youtube.\n Câu lệnh: /song [Tên nhạc]"
+sug_20: "Bạn có thể nhận được danh sách đầy đủ các lệnh của tôi mà tôi chấp nhận.\nCommand: /help"
+sug_21: "Bot có tùy chọn danh sách phát phía máy chủ.\nBạn có thể thêm nhạc vào danh sách phát của mình và phát tất cả chúng cùng nhau qua /play"
+sug_22: "Giờ đây, bạn có thể phát ngẫu nhiên các bản nhạc đã xếp hàng đợi trên bot.\n Câu lệnh: /shuffle"
+sug_23: "Bạn có thể kiểm tra hàng đợi nhạc.\n Lệnh: /queue"
+sug_24: "Bạn có thể kiểm tra chủ sở hữu của tôi và những người dùng sudo quản lý tôi.\n Câu lệnh: /sudolist"
+sug_25: "Bot có một tính năng được gọi là ** Chế độ xóa lệnh **. Nó tự động xóa các lệnh đã thực thi.\nBật hoặc tắt chế độ xóa từ /settings [__Enabled theo mặc định__]"
+sug_26: "Bạn có thể thay đổi ngôn ngữ của bot sang các ngôn ngữ có sẵn để dễ hiểu.\nCommand: /language"
+sug_27: "Bot có một tính năng gọi là ** Force Play **.\n ** Force Play ** dừng bản nhạc đang phát trên trò chuyện thoại và bắt đầu phát bản nhạc đã tìm kiếm ngay lập tức mà không làm phiền /xóa hàng đợi.\n Lệnh: /playforce "
